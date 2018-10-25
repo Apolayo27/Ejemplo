@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>cucumber</description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee95b109-3bb8-402a-a3f1-dd455180f700</testCaseGuid>
+</TestCaseEntity>
