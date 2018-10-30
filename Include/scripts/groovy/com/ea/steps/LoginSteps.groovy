@@ -13,12 +13,6 @@ import io.cucumber.datatable.DataTableType;
 import io.cucumber.datatable.TableEntryTransformer;
 
 
-/*
- * Author: Karthik KK
- * Company: ExecuteAutomation
- * Type: StepDefinition
- * Step : LoginStep
- */
 class LoginSteps {
 	@Given("I navigate to the login page")
 	def I_navigate_to_the_login_page() {
@@ -35,7 +29,7 @@ class LoginSteps {
 		WebUI.setText(findTestObject('Object Repository/Page_Execute Automation/input_Login_Password'), password)
 	}
 
-	@And("I enter the following for Login")
+	@When("I enter the following for Login")
 	def I_enter_the_following_for_login(List<User> table){
 		//		Way 1 - To get data from DataTable Type
 		//		List<Map<String, String>> data = table.asMaps(String.class, String.class);
@@ -45,6 +39,7 @@ class LoginSteps {
 		//		List<User> users =  new ArrayList<User>();
 		//		//Store all the users
 		//		users = table.asList(User.class);
+
 
 
 		//Iterate through the values

@@ -4,7 +4,7 @@
    <name>LoginExecute</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-25T11:53:39</lastRun>
+   <lastRun>2018-10-30T08:46:40</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -16,5 +16,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b5e35bfe-8e73-4827-a6b0-c7648e5e6042</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Loginfallido</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

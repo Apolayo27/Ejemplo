@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginExecute,Chrome 69.0.3497.100,,2018-10-25 15:44:34,2018-10-25 15:44:41,7.179s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 69.0.3497.100,cucumber,2018-10-25 15:44:34,2018-10-25 15:44:39,4.398s,PASSED
+runFeatureFile,Chrome 69.0.3497.100,,2018-10-25 15:44:34,2018-10-25 15:44:39,4.155s,PASSED
+,,,,,,
+Test Cases/Loginfallido,Chrome 69.0.3497.100,,2018-10-25 15:44:39,2018-10-25 15:44:41,2.357s,FAILED
+runFeatureFile,Chrome 69.0.3497.100,,2018-10-25 15:44:39,2018-10-25 15:44:41,2.172s,FAILED

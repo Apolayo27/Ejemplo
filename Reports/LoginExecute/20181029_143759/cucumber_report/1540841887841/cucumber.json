@@ -1,0 +1,76 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Test the login functionality of EA application",
+        "description": "",
+        "id": "login;test-the-login-functionality-of-ea-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2006101715,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I navigate the login page",
+            "match": {
+              "location": "LoginStepsfallido.I_navigate_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)\n\tat com.ea.steps.LoginStepsfallido.I_Click_login_button(LoginStepsfallido.groovy:36)\n\tat ✽.I click login button(/Users/mapolayom/git/Ejemplo/Include/features/Loginparafalla.feature:26)\n",
+              "duration": 407541298,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "I click login button",
+            "match": {
+              "location": "LoginStepsfallido.I_Click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I should see home page",
+            "match": {
+              "location": "LoginStepsfallido.I_Should_see_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginparafallafeature"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  Test the login functionality of the application",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "/Users/mapolayom/git/Ejemplo/Include/features/Loginparafalla.feature",
+    "tags": [
+      {
+        "name": "@loginparafallafeature",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
