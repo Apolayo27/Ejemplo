@@ -22,7 +22,7 @@ class LoginSteps {
 
 
 	//Obsolete step
-	@When('I enter the username as "(.*) and password as "(.*)"')
+	@When('I enter the username as "(.*)" and password as "(.*)"')
 	def I_enter_username_password(String userName, String password) {
 		WebUI.setText(findTestObject('Object Repository/Page_Execute Automation/input_Login_UserName'), userName)
 

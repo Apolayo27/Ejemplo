@@ -46,8 +46,11 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 import org.openqa.selenium.By.ByXPath
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.WebElement
+import org.openqa.selenium.chrome.ChromeDriver
+
+
+
+
 
 
 
@@ -55,6 +58,8 @@ class ventas {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
+
+
 	@Given("I navigate landing page")
 	def I_navigate_landing_page() {
 		WebUI.openBrowser('')
@@ -64,13 +69,17 @@ class ventas {
 
 	@When("I select the La quiero button")
 	def I_select_the_La_quiero_button() {
-		WebDriver driver = DriverFactory.getWebDriver()
+
+		System.setProperty("webdriver.chrome.driver", "/Users/mapolayom/Documents/QA/Automatizacion/chromedriver")
+		WebDriver driver = new ChromeDriver()
+		DriverFactory.changeWebDriver(driver)
+
 		driver.findElement(By.xpath('/html/body/app-root/app-welcome/div/div/div[2]/div/div/div[2]/button')).isDisplayed()
+		driver.findElement(By.xpath('/html/body/app-root/app-welcome/div/div/div[2]/div/div/div[2]/button')).click()
 		System.out.println("encontrado")
-		
 	}
 
-	@Then("I verify the (.*) in step")
+	@Then("I verify the (.*) in step2")
 	def I_verify_the_status_in_step(String status) {
 		println status
 	}

@@ -23,5 +23,6 @@ Feature: Login
   @smoke
   Scenario: Test the login functionality of EA application
   	Given I navigate the login page
+  	When I enter username <userName1> password <password1>
   	And I click login button
-  	Then I should see home page
+  	Then I should see the button save
