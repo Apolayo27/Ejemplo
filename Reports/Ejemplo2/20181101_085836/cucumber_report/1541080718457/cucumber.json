@@ -1,0 +1,76 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "validate login",
+        "description": "",
+        "id": "login2;validate-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3575267768,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter the url",
+            "match": {
+              "location": "login2.I_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 447867030,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I select the button",
+            "match": {
+              "location": "login2.I_select_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143665334,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I see the login page",
+            "match": {
+              "location": "login2.I_see_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Login2",
+    "description": "  Test login",
+    "id": "login2",
+    "keyword": "Feature",
+    "uri": "/Users/mapolayom/git/Ejemplo/Include/features/ejemplo2.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

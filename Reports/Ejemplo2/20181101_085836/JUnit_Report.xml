@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ejemplo2" time="5" tests="1" failures="0" errors="0">
+   <testsuite name="Ejemplo2" tests="1" failures="0" errors="0" time="5" timestamp="2018-11-01 08:58:37" hostname="mapolayom - 10.92.21.62" id="Test Suites/Ejemplo2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mapolayom/git/Ejemplo/Reports/Ejemplo2/20181101_085836"/>
+         <property name="logFiles" value="/Users/mapolayom/git/Ejemplo/Reports/Ejemplo2/20181101_085836/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mapolayom - 10.92.21.62"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.92.21.62"/>
+         <property name="sessionId" value="5b5bb22d49e359b94408b63d010396bf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/ejemplo2" classname="Test Cases/ejemplo2" status="PASSED">
+         <system-out><![CDATA[2018-11-01 08:58:38 - [TEST_CASE][PASSED] - Test Cases/ejemplo2: Test Cases/ejemplo2
+
+2018-11-01 08:58:38 - [TEST_STEP][PASSED] - runFeatureFile: Feature file: 'Include/features/ejemplo2.feature' was passed
+
+2018-11-01 08:58:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-01 08:58:42 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-11-01 08:58:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Ejemplo2/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-01 08:58:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-01 08:58:43 - [MESSAGE][PASSED] - Object 'Object Repository/Ejemplo2/Page_CURA Healthcare Service/button_Login' is present
+
+2018-11-01 08:58:43 - [MESSAGE][PASSED] - Browser is closed
+
+2018-11-01 08:58:43 - [MESSAGE][PASSED] - Feature file: 'Include/features/ejemplo2.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-01 08:58:37 - [TEST_SUITE][PASSED] - Ejemplo2: Test Cases/ejemplo2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

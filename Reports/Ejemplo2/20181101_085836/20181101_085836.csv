@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Ejemplo2,Chrome 70.0.3538.77,,2018-11-01 08:58:37,2018-11-01 08:58:43,5.478s,PASSED
+,,,,,,
+Test Cases/ejemplo2,Chrome 70.0.3538.77,,2018-11-01 08:58:38,2018-11-01 08:58:43,5.093s,PASSED
+runFeatureFile,Chrome 70.0.3538.77,,2018-11-01 08:58:38,2018-11-01 08:58:43,4.767s,PASSED

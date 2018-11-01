@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-LoginExecute,Chrome 69.0.3497.100,,2018-10-25 11:58:39,2018-10-25 11:58:44,4.905s,PASSED
-,,,,,,
-Test Cases/Login,Chrome 69.0.3497.100,cucumber,2018-10-25 11:58:39,2018-10-25 11:58:44,4.480s,PASSED
-runFeatureFile,Chrome 69.0.3497.100,,2018-10-25 11:58:40,2018-10-25 11:58:44,4.201s,PASSED

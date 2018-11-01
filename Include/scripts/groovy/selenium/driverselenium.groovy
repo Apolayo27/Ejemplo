@@ -54,9 +54,9 @@ public class driverselenium {
 		println name
 		
 		System.setProperty("webdriver.chrome.driver", "/Users/mapolayom/Documents/QA/Automatizacion/chromedriver")
-		WebDriver driver = new ChromeDriver()
-		WebUI.click(TestObject)
-		DriverFactory.changeWebDriver(driver)
+		//WebDriver driver = new ChromeDriver()
+		//WebUI.click(TestObject)
+		//DriverFactory.changeWebDriver(driver)
 	}
 
 	@When("I check for the (\\d+) in step")

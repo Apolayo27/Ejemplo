@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-LoginExecute,,,2018-10-25 15:35:44,2018-10-25 15:35:45,1.081s,FAILED
-,,,,,,
-Test Cases/Login,,cucumber,2018-10-25 15:35:45,2018-10-25 15:35:45,0.493s,FAILED
-runFeatureFile,,,2018-10-25 15:35:45,2018-10-25 15:35:45,0.249s,FAILED
-,,,,,,
-Test Cases/Loginfallido,,,2018-10-25 15:35:45,2018-10-25 15:35:45,0.138s,FAILED
-runFeatureFile,,,2018-10-25 15:35:45,2018-10-25 15:35:45,0.036s,FAILED

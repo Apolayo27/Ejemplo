@@ -3,6 +3,10 @@
    <description></description>
    <name>Ejemplo</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <type>PROJECT</type>
+   </integratedEntity>
    <UUID>6a209af7-c109-4212-b5aa-4777d49ed2b4</UUID>
    <migratedVersion>5.7.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>

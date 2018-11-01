@@ -58,6 +58,7 @@ class LoginSteps {
 
 	@Then("I should see the home page")
 	def I_Should_see_the_home_page(){
+		WebUI.closeBrowser()
 
 		//Assertions has been done !
 	}

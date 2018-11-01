@@ -23,6 +23,6 @@ Feature: Login
   @smoke
   Scenario: Test the login functionality of EA application
   	Given I navigate the login page
-  	When I enter username <userName1> password <password1>
+  	When I enter username "admin" password "admin"
   	And I click login button
   	Then I should see the button save

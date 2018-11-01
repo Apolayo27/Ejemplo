@@ -13,10 +13,10 @@ import io.cucumber.datatable.DataTableType;
 import io.cucumber.datatable.TableEntryTransformer;
 
 
-class LoginStepsfallido {	
+class LoginStepsfallido {
 	@Given("I navigate the login page")
-	
-	
+
+
 	def I_navigate_to_the_login_page() {
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl('http://www.executeautomation.com/demosite/Login.html')
@@ -41,7 +41,7 @@ class LoginStepsfallido {
 	@Then("I should see the button save")
 	def I_should_see_the_button_save(){
 		//WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Execute Automation/input_EnglishHindi_Save'), 20)
-		WebUI.verifyTextPresent('Click for Generating JavaScript Alert', true)
+		WebUI.verifyTextPresent('Clic for Generating JavaScript Alert', true)
 		WebUI.closeBrowser()
 	}
 }

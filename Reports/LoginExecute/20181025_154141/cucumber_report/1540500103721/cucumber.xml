@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="3.912935">
-<testcase classname="Login" name="Test the login functionality of EA application" time="3.912935">
-<system-out><![CDATA[Given I navigate to the login page..........................................passed
-And I enter the following for Login.........................................passed
-And I click the login button................................................passed
-Then I should see the home page.............................................passed
-]]></system-out>
-</testcase>
-</testsuite>
